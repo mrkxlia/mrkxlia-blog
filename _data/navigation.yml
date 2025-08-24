@@ -1,0 +1,9 @@
+main:
+  - title: Home
+    url: /
+  - title: Tech
+    url: /categories/tech/
+  - title: Fav
+    url: /categories/fav/
+  - title: About
+    url: /about/
