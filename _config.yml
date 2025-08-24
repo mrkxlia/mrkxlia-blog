@@ -26,15 +26,35 @@ url: "https://mrkxlia-blog.pages.dev"  # the base hostname & protocol for your s
 twitter_username: 
 github_username:  mrkxlia
 
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
+
+
 #作者情報
 author:
-  name: "MRKXliA"
+  name      : "MRKXliA"
+  # avatar: ""    # 後で追加可
+  bio       : "技術メモと推し活メモ"
+  location  : "Japan"
+  links     :
+    - label: "GitHub"
+      icon: "fab fa-brands fa-github"
+      url: "https://github.com/mrkxlia"
+  # email: ""     # 後で追加可
+  # url: ""       # 後で追加可
 
 # Build settings
 theme: minimal-mistakes-jekyll  # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 plugins:
   - jekyll-feed
-
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 
 # Exclude from processing.
